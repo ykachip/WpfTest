@@ -23,7 +23,12 @@ namespace WpfTest
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("ボタンが押されました");
+            MessageBox.Show("テスト1が押されました");
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("テスト2が押されました");
         }
     }
 }
